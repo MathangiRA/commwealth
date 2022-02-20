@@ -14,7 +14,10 @@ mvn commands to run the test
     mvn  post-integration-test -Dcucumber.filter.tags=@RegisterUser
 
 #### UI Tests- 
-    mvn post-integration-test -Dcucumber.filter.tags=@AllUITests 
+    mvn post-integration-test -Dcucumber.filter.tags=@CreateUser 
+    
+#### All Tests- 
+    mvn post-integration-test -Dcucumber.filter.tags=@AllTests 
 
 After execution serenity test report will be available to view in 
 \target\site\serenity\index.html
